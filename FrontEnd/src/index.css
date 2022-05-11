@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card {
+  align-items: center;
+  border: 1px solid rgb(80, 73, 73);
+  width: 450px;
+  height: auto;
+  margin: 15px;
+  border-radius: 5px;
+}
+.heart img ,.tag img {
+  /* background-image: url(./Mock-Data/Images/heart.png); */
+  height: 26px;
+    width: auto;
+    padding: 6px;
+    background-repeat: no-repeat;
+}
+.more img {
+  height: 6px;
+  width: auto;
+  background-repeat: no-repeat;
+  margin: 26px 26px 7px 11px;
+}
+.mainCont {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+  .head_container {
+    margin: 50px;
+    height: 0px;
+    width: 1000px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header img {
+  height: 30px;
+  width: auto;
+  height: 35px;
+  padding: 5px;
+  background-repeat: no-repeat;
+}
+.logoHeading {
+  font: normal normal normal 20px/3px Palatino;
+  letter-spacing: 0px;
+  color: #006238;
+  font-size: 44px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin-right: 67%;
+}
+.camera img {
+  height: 30px;
+  width: auto;
+  height: 35px;
+  background-repeat: no-repeat;
+}
+.site-container{
+  display: flex;
+  justify-content: space-around;
+}
+.name, .location{
+  font-size: 15px;
+  float: left;
+}
+img{
+  margin-top: 10px;
+}
+.info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:100%;
+}
+.image img {
+  width: 450px;
+  height: 190px;
+ 
+}
+.mainheading, h1{
+  text-align: center;
+}
+.backbtn{
+  padding: 10px;
+  margin-left: 5rem !important;
+  margin: 20px;
+  color:rgb(66, 22, 22) !important;
+  font-size: 20px;
+}
+
+.liketag{
+  display: flex;
+  flex-direction: row;margin: 10px;
+  width: 80px;
+}
+.InFo_Cont,.head{
+  display: flex;
+  justify-content: space-between;
+}
+.likes,.description{
+  float: left; 
+}
+.decrep{   
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding: 10px 10px 10px;
+}
+.dateT{
+  margin-right: 10px 0px 0px 10px ;
+}
