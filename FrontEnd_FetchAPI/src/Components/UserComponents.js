@@ -52,7 +52,7 @@ const UserCompJs = () => {
                   
                   </div>
                   </div>
-               
+                  <div className="btn-al"><button>Album</button></div>
                 </div>
                
             </div>

@@ -34,7 +34,7 @@ function PhotosComponents() {
         <div>
          
             <h1>Photos</h1>
-         <button className="backbtn" style={{color:'green'} } onClick={()=>navigate("/AlbumPage")}> Back </button>
+         <button className="backbtn" onClick={()=>navigate("/AlbumPage")}> Back </button>
           
      
     {

@@ -30,7 +30,7 @@ function AlbumComponent() {
         
             <div>
             <h1>Albums</h1>
-             <button className="backbtn" style={{color:'green'} } onClick={()=>navigate("/UserPage")}> Back </button>
+             <button className="backbtn" onClick={()=>navigate("/UserPage")}> Back </button>
               
          
         {
@@ -46,7 +46,7 @@ function AlbumComponent() {
                          <div className='location'><b>Album Title :- </b>{album.title}</div>
                          </div>
                          </div>
-                     
+                         <button className="btn-al">Photos</button>
                        </div>
                      
                    </div>
